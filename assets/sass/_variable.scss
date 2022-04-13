@@ -1,0 +1,55 @@
+@font-face{
+    font-family: 'Russo One';
+    src: url('../fonts/RussoOne-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+
+$font_russo_one: 'Russo One', sans-serif;
+$font_ubuntu: 'Ubuntu', sans-serif;
+
+$white: #FFFFFF;
+$transparent: transparent;
+$header_color: #545454;
+$btn_color: linear-gradient(180deg, #555555 0%, #2C2C2C 100%), 
+linear-gradient(180deg, #525252 0%, rgba(196, 196, 196, 0) 100%), 
+linear-gradient(180deg, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
+$btn_outline_color: #B0B0B0;
+$light_section_color: linear-gradient(180deg, #7B7B7B 5.4%, #3E3E3E 30.28%, #A4A4A4 45.04%, #C4C4C4 92.62%);
+$text_color: #F1F1F1;
+
+$wrapper1_color: #646464;
+$wrapper2_color: #8B8B8B;
+$wrapper3_color: #515151;
+$wrapper4_color: #747474;
+
+$dark_section_color: linear-gradient(180deg, #494949 0%, #888888 71.74%);
+$bg_color: #313131;
+$border_color: #DCDCDC;
+$box_bg_color: #3A3A3A;
+$box_linear-gradient: linear-gradient(95.42deg, #31FF83 1.45%, #FFB6A7 18.4%, #FFE662 52.26%, #F92424 78.44%, #CA5BFE 100%);
+
+
+$screen_1440px: 1440px; 
+$screen_1080px: 1080px;
+$screen_992px: 992px;
+$screen_768px: 768px;
+$screen_580px: 580px;
